@@ -1,19 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans Condenses', sans-serif;
 }
+
 .logo {
   width: 40px;
   margin-left: 22px;
 }
+
 .site-container {
   min-height: 100vh;
 }
+
 main {
   flex: 1;
 }
+
 .btn-primary,
 .btn-outline-primary {
   background-color: #f0c040;
@@ -26,6 +28,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .rating span {
   color: #ffc000;
 }
@@ -35,29 +38,35 @@ main {
   border: 1px #404040 solid;
   margin: 1rem;
 }
+
 .product img {
   width: 100%;
   max-width: 400px;
 }
+
 .product-info {
   padding: 1rem;
 }
+
 .img-large {
   max-width: 100%;
 }
+
 .img-thumbnail {
   height: 80px;
 }
+
 .small-container {
   max-width: 600px;
 }
 
 /* steps */
-.checkout-steps > div {
+.checkout-steps>div {
   border-bottom: 0.2rem solid #a0a0a0;
   color: #a0a0a0;
 }
-.checkout-steps > div.active {
+
+.checkout-steps>div.active {
   border-bottom: 0.2rem solid #f08000;
   color: #f08000;
 }
@@ -66,6 +75,7 @@ main {
 .navbar-brand {
   font-weight: bold;
 }
+
 .side-navbar {
   width: 240px;
   height: 100%;
@@ -78,12 +88,15 @@ main {
 .site-container {
   transition: 0.4s;
 }
+
 .active-cont {
   margin-left: 240px;
 }
+
 .active-nav {
   left: 0;
 }
+
 .text-bold {
   font-weight: bold;
 }
@@ -92,6 +105,7 @@ main {
 .footerRow {
   padding: 20px;
 }
+
 .textStyle {
   font-size: 1.5rem;
   text-decoration: underline;
